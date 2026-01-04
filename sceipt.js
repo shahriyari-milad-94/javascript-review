@@ -10,10 +10,26 @@
 // ------------------------------------------------------
 //map
 
-const array = [1, 2, 3];
-const newArray = array.map(function (item) {
-  const result = item * 2;
-  return result;
-});
+// const array = [1, 2, 3];
+// const newArray = array.map(function (item) {
+//   const result = item * 2;
+//   return result;
+// });
 
-console.log(newArray);
+// console.log(newArray);
+// ----------------------------------------------------------
+//find & filter
+//بر روی ارایه ها اعمال میشوند
+//filter  یک ارایه برمیگرداند
+//find یک ایتم برمیگرداند
+
+const array = [22, 3, 43, 65, 7];
+
+// const newNumber = array.filter(function (item) {
+//   return item > 10;
+// });
+// ---or
+// const newNumber = array.filter((item) => item > 10);
+// ----find
+const newNumber = array.find((item) => item === 65);
+console.log(newNumber);
