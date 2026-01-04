@@ -37,9 +37,19 @@
 //----------------------
 // reduce
 
-const number = [2, 3, 5, 6, 7];
-const result = number.reduce(
-  (accumulator, currentItem) => accumulator + currentItem,
-  0
-);
-console.log(result);
+// const number = [2, 3, 5, 6, 7];
+// const result = number.reduce(
+//   (accumulator, currentItem) => accumulator + currentItem,
+//   0
+// );
+// console.log(result);
+//------------------------
+//template literals
+
+const name = "Milad";
+const age = 26;
+
+// const text = "Hi i am " + name + " and i am " + age + " years old";
+// console.log(text);
+const text=`hi i am ${name} and i am ${age} years old`
+console.log(text);
